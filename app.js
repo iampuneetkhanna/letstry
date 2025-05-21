@@ -7,8 +7,8 @@ const { SpeechClient } = require('microsoft-cognitiveservices-speech-sdk');
 const app = express();
 app.use(bodyParser.json());
 
-const azureSpeechKey = 'YOUR_AZURE_SPEECH_KEY';
-const azureSpeechRegion = 'YOUR_AZURE_SPEECH_REGION';
+const azureSpeechKey = 'EMmVxF8X8cKtVtmhIykg58cpqB2oBDSfUYL0rILimy9izPFMih66JQQJ99BEAC4f1cMXJ3w3AAAYACOGKR1A';
+const azureSpeechRegion = 'westus';
 const twilioAccountSid = 'YOUR_TWILIO_ACCOUNT_SID';
 const twilioAuthToken = 'YOUR_TWILIO_AUTH_TOKEN';
 const client = twilio(twilioAccountSid, twilioAuthToken);
